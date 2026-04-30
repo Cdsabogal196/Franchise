@@ -58,12 +58,7 @@ La API estará disponible en:
 ```bash
 http://localhost:8081
 ```
-Y desplegada en la nube en Azure en :
-```bash
-https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net
-```
-## En Azure (ya desplegado)
-No se requieren pasos adicionales para usar la versión alojada en la nube. Simplemente utiliza la URL base proporcionada.
+Y desplegada en la nube en Azure en Azure no se requieren pasos adicionales para usar la versión alojada en la nube. Simplemente utiliza la URL base proporcionada.
 
 🔗 [https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/](https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/)
 
