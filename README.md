@@ -9,6 +9,18 @@ Aplicación desarrollada con **Spring Boot WebFlux** y **PostgreSQL** que permit
 - Maven 3.9+ (opcional, se puede usar el wrapper)
 - PostgreSQL (local o remoto)
 - Docker (opcional, para contenerización)
+  
+## ☁️ Despliegue en Azure
+
+La aplicación se encuentra desplegada en **Azure App Service** y está disponible en la siguiente URL pública:
+
+🔗 [https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/](https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/)
+
+Todas las rutas de la API están bajo el prefijo `/api`.  
+Ejemplo: `https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/api/franchise`
+
+La configuración de la base de datos en Azure se maneja mediante la variable de entorno `DATABASE_URL`, que debe apuntar a una instancia de PostgreSQL accesible desde la nube.
+
 
 # Gestión de una franquicia
 
@@ -46,6 +58,14 @@ La API estará disponible en:
 ```bash
 http://localhost:8081
 ```
+Y desplegada en la nube en Azure en :
+```bash
+https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net
+```
+## En Azure (ya desplegado)
+No se requieren pasos adicionales para usar la versión alojada en la nube. Simplemente utiliza la URL base proporcionada.
+
+🔗 [https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/](https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/)
 
 # 📡 Endpoints de la API
 Todos los endpoints están bajo el prefijo /api y no requieren autenticación.
@@ -334,3 +354,9 @@ El proyecto incluye pruebas unitarias para los controladores usando `WebFluxTest
 - Maven
 
 - Docker
+
+- Azure App Service
+
+## Nota:
+
+Infraestructura como código (IaC): No fue implementada por falta de tiempo 
