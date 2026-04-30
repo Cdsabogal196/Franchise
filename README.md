@@ -63,7 +63,7 @@ Y desplegada en la nube en Azure en Azure no se requieren pasos adicionales para
 🔗 [https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/](https://app-franchise-edgahyh5aaema2ch.canadacentral-01.azurewebsites.net/)
 
 # 📡 Endpoints de la API
-Todos los endpoints están bajo el prefijo /api y no requieren autenticación.
+Todos los endpoints están bajo el prefijo /api con su respondiente endpoint /franchise, /product o /branchy no requieren autenticación.
 
 ## 🔷 Franquicias (`/api/franchise`)
 
